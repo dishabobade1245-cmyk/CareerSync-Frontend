@@ -1,16 +1,90 @@
-# React + Vite
+# CareerSync Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+CareerSync is a career and placement management platform that connects students, recruiters, and administrators through a centralized web application.
 
-Currently, two official plugins are available:
+This repository contains the React frontend for CareerSync.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Role-based login experience
+- Student dashboard
+- Recruiter dashboard
+- Admin dashboard
+- Browse job opportunities
+- Apply for jobs
+- Track application status
+- View student profile
+- Post job opportunities
+- Manage recruiter jobs
+- Review student applications
+- Update application status
+- Admin user monitoring
+- Admin job monitoring
+- Admin application monitoring
+- Responsive and modern user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## User Roles
 
-## Expanding the Oxlint configuration
+### Student
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Students can:
+
+- Browse available jobs
+- Apply for jobs
+- View their applications
+- Track application status
+- View their profile
+
+### Recruiter
+
+Recruiters can:
+
+- Post jobs
+- View their posted jobs
+- Review student applications
+- Update application status
+
+### Admin
+
+Administrators can:
+
+- View users
+- Monitor jobs
+- Monitor applications
+
+## Technology Stack
+
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- REST APIs
+
+## Project Structure
+
+```text
+CareerSync-Frontend
+│
+├── public
+│
+├── src
+│   ├── AdminUsers.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── RecruiterApplications.jsx
+│   ├── RecruiterJobs.jsx
+│   ├── RecruiterPostJob.jsx
+│   ├── StudentApplications.jsx
+│   ├── StudentJobs.jsx
+│   ├── StudentProfile.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   │
+│   └── assets
+│       └── hero.png
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── index.html
